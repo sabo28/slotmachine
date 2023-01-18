@@ -44,14 +44,15 @@ int main()
 
     // Check if the player has won
 
-    for (int i = 0; i < winningCombinations.size(); i++) {
-        /*if (equal(begin(playerReels), end(playerReels), begin(winningCombinations[i]))) {
+    /*for (int i = 0; i < winningCombinations.size(); i++) {
+        if (equal(begin(playerReels), end(playerReels), begin(winningCombinations[i]))) {
             cout << "You won!" << endl;
             return 0;
-        }*/
+        }
     }
 
     cout << "You lost." << endl;
+    */
 
     return 0;
 }
